@@ -22,3 +22,9 @@
     --bs-btn-disabled-border-color: #0d6efd;
     --bs-gradient: none;
 }
+
+
+.row>* {
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * 2.5);
+}
