@@ -7,7 +7,7 @@ export class Navbar extends Component {
   render() {
     return (
         <>
-      <div className="container-lg" >DAY Ten(10)</div>
+      <div className="container-lg" >DAY Twelve(12)</div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm  mb-5 bg-white"  >
       <div className="container-fluid">
     <a className="navbar-brand" href="/">30DaysofCode</a>
@@ -25,6 +25,8 @@ export class Navbar extends Component {
       
       </ul>
      
+
+
     </div>
   </div>
 

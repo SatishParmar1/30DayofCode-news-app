@@ -4,13 +4,15 @@ import './App.css';
 import React, { Component } from 'react'
 import Nevbar, { Navbar } from './component/Navbar';
 import News from './component/News';
+//import Spinner from './component/Spinner';
 
 export default class App extends Component {
   render() {
     return (
       <>
  <Navbar/>
-<News/>
+ 
+<News pagesize="12"/>
    
      
      
