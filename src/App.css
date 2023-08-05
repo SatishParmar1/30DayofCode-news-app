@@ -2,7 +2,8 @@
   text-align: center;
   background-color:  #e3f2fd;
   width:100%;
-  font-size: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
   }
 
   .btn-outline-primary {
@@ -23,8 +24,15 @@
     --bs-gradient: none;
 }
 
+.offcanvas{
+  --bs-offcanvas-width: 300px;
+}
 
-.row>* {
-  padding-right: calc(var(--bs-gutter-x) * 0);
-  padding-left: calc(var(--bs-gutter-x) * 2.5);
+.nav-link {
+  font-size: 20px;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color:#137dc9
+  
 }
