@@ -2,7 +2,7 @@
 import './App.css';
 
 import React, { Component } from 'react'
-import Nevbar, { Navbar } from './component/Navbar';
+import  Navbar  from './component/Navbar';
 import News from './component/News';
 import LoadingBar from 'react-top-loading-bar'
 //import Spinner from './component/Spinner';
@@ -25,7 +25,6 @@ export default class App extends Component {
       height="4px"
         color='#f11946'
         progress={this.state.progress}
-     
       />
      
       <Routes>

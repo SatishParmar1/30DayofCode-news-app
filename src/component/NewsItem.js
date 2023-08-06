@@ -8,7 +8,7 @@ export class NewsItem extends Component {
         <>
               <Link to={buttonurl} className="text-decoration-none "><div className="card" >
                 <div className='d-flex content-justify-end '>
-              <span class="position-absolute translate-middle badge rounded-pill bg-danger" style={{left:"80%",zIndex:"1" }}> {source}</span>
+              <span className="position-absolute translate-middle badge rounded-pill bg-danger" style={{left:"80%",zIndex:"1" }}> {source}</span>
               </div>
               <img src={img} className="card-img-top" alt="..."/>
                 <div className="card-body" key={buttonurl}>
