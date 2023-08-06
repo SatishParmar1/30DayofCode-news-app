@@ -7,7 +7,9 @@ export class NewsItem extends Component {
     return (
         <>
               <Link to={buttonurl} className="text-decoration-none "><div className="card" >
-              <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left:"90%",zIndex:"1" }}> {source}</span>
+                <div className='d-flex content-justify-end '>
+              <span class="position-absolute translate-middle badge rounded-pill bg-danger" style={{left:"80%",zIndex:"1" }}> {source}</span>
+              </div>
               <img src={img} className="card-img-top" alt="..."/>
                 <div className="card-body" key={buttonurl}>
                 <h5 className="card-title">{tittle}...</h5>
@@ -16,6 +18,7 @@ export class NewsItem extends Component {
                 <Link to={buttonurl} className="btn btn-sm btn-primary" >Go and Read</Link>
                 </div>    
       </div>
+     
       </Link>
       </>
     )
