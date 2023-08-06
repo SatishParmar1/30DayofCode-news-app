@@ -1,6 +1,7 @@
-import PropTypes from 'prop-types'
+//import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import Logo from "./logo.png";
 export class Navbar extends Component {
   
 
@@ -9,15 +10,16 @@ export class Navbar extends Component {
         <>
       
    <div className=''>
-   <nav className="navbar navbar-light bg-light fixed-top">
+   <nav className="navbar navbar-light fixed-top shadow rounded">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="#">30DAYSOFCODE</Link>
-    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <Link className="navbar-brand " id="logo" to="#"> <img src={Logo} alt="" width="30" height="30" className="d-inline-block align-text-top"/> 30DAYSOFCODE</Link>
+   
+    <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
-      <h5 className="offcanvas-title" id="offcanvasNavbarLabel">NewsFlash</h5>
+      <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><img src={Logo} alt="" width="30" height="30" className="d-inline-block align-text-top"/>NewsFlash</h5>
         <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body">

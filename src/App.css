@@ -5,10 +5,15 @@
   font-size: 15px;
   margin-bottom: 20px;
   }
-
-  .btn-outline-primary {
+.navbar{
+  background-color: #e3f2fd;
+}
+#headlines{
+margin:auto;
+}
+  .btn-primary {
     --bs-btn-color: #002a48;
-    --bs-btn-bg: #e3f2fd;
+    --bs-btn-bg: #75a4e9;
     --bs-btn-border-color: #7ba3df;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #137dc9;
@@ -25,14 +30,22 @@
 }
 
 .offcanvas{
-  --bs-offcanvas-width: 300px;
+  --bs-offcanvas-width: 233px;
+  --bs-offcanvas-padding-x: 1rem;
+    --bs-offcanvas-padding-y: 2rem;
 }
 
 .nav-link {
   font-size: 20px;
+  text-align: center;
 }
 .nav-link:hover {
-  text-decoration: underline;
-  color:#137dc9
+  font-size: 21px;
+ border-radius: 10px;
+  text-align: center;
+  background-color:#7ba3df;
   
+}
+#logo{
+  margin:auto;
 }
