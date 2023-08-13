@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/30DayofCode-news-app/static/css/main.282dcbac.css",
-    "main.js": "/30DayofCode-news-app/static/js/main.e7c2fd23.js",
+    "main.js": "/30DayofCode-news-app/static/js/main.2a49a0f2.js",
     "static/js/787.66a4299e.chunk.js": "/30DayofCode-news-app/static/js/787.66a4299e.chunk.js",
     "static/media/loading.gif": "/30DayofCode-news-app/static/media/loading.589629bc004992dc1e2f.gif",
     "static/media/logo.png": "/30DayofCode-news-app/static/media/logo.231d170bdbfc8571dee9.png",
     "index.html": "/30DayofCode-news-app/index.html",
     "main.282dcbac.css.map": "/30DayofCode-news-app/static/css/main.282dcbac.css.map",
-    "main.e7c2fd23.js.map": "/30DayofCode-news-app/static/js/main.e7c2fd23.js.map",
+    "main.2a49a0f2.js.map": "/30DayofCode-news-app/static/js/main.2a49a0f2.js.map",
     "787.66a4299e.chunk.js.map": "/30DayofCode-news-app/static/js/787.66a4299e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.282dcbac.css",
-    "static/js/main.e7c2fd23.js"
+    "static/js/main.2a49a0f2.js"
   ]
 }
