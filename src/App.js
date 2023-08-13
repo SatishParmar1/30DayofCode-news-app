@@ -28,7 +28,7 @@ export default class App extends Component {
       />
      
       <Routes>
-      <Route exact path="/"  key="general "  element={  <News setProgress = {this.setProgress} pagesize={30}  country="in" newstype="general"/>  }/>    
+      <Route exact path=""  key="general "  element={  <News setProgress = {this.setProgress} pagesize={30}  country="in" newstype="general"/>  }/>    
      </Routes>
       <Routes>
       <Route exact path="/general" key="general" element={  <News setProgress = {this.setProgress} pagesize={30}  country="in" newstype="general"/>  }/>    
